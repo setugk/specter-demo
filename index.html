@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nimbus — Analytics that actually make sense</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark"></span>
+          <span class="brand-name">Nimbus</span>
+        </a>
+        <nav class="nav-links">
+          <a href="#">Product</a>
+          <a href="#">Pricing</a>
+          <a href="#">Docs</a>
+          <a href="#">Blog</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="link-muted" href="#">Sign in</a>
+          <a class="btn btn-primary" href="#">Get started</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Now with real-time dashboards</p>
+        <h1 class="hero-title">Analytics that actually make sense</h1>
+        <p class="hero-sub">
+          Nimbus turns your product data into clear answers — no SQL, no data team,
+          no waiting. Ship features people actually use.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary btn-lg" href="#">Start free trial</a>
+          <button class="btn btn-secondary btn-lg" id="openDemo" type="button">Book a demo</button>
+        </div>
+        <div class="hero-preview">
+          <div class="preview-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="preview-body">
+            <div class="preview-metric">
+              <span class="preview-metric-label">Active users</span>
+              <span class="preview-metric-value">24,918</span>
+              <span class="preview-metric-trend">+12.4%</span>
+            </div>
+            <div class="preview-chart">
+              <span style="height: 40%"></span>
+              <span style="height: 62%"></span>
+              <span style="height: 48%"></span>
+              <span style="height: 78%"></span>
+              <span style="height: 65%"></span>
+              <span style="height: 90%"></span>
+              <span style="height: 72%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="card">
+          <div class="card-icon">◆</div>
+          <h3 class="card-title">Instant dashboards</h3>
+          <p class="card-text">
+            Connect a source and get live dashboards in under a minute. No setup,
+            no config files.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">◆</div>
+          <h3 class="card-title">Ask in plain English</h3>
+          <p class="card-text">
+            Type a question, get a chart. Nimbus writes the query so your whole
+            team can self-serve.
+          </p>
+        </div>
+        <div class="card">
+          <div class="card-icon">◆</div>
+          <h3 class="card-title">Alerts that matter</h3>
+          <p class="card-text">
+            Get pinged when a metric moves in a way that matters — not on every
+            tiny fluctuation.
+          </p>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="stat">
+          <span class="stat-value">3,200+</span>
+          <span class="stat-label">Teams onboard</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">180ms</span>
+          <span class="stat-label">Median query time</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">99.98%</span>
+          <span class="stat-label">Uptime</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">4.9/5</span>
+          <span class="stat-label">Avg. rating</span>
+        </div>
+      </section>
+
+      <section class="cta">
+        <h2 class="cta-title">Start understanding your product today</h2>
+        <p class="cta-sub">Free for 14 days. No credit card required.</p>
+        <a class="btn btn-primary btn-lg" href="#">Get started free</a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 Nimbus, Inc.</span>
+      <nav class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Status</a>
+        <a href="#">Contact</a>
+      </nav>
+    </footer>
+
+    <div class="modal-overlay" id="demoModal" hidden>
+      <div class="modal" role="dialog" aria-modal="true">
+        <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+        <h2 class="modal-title">Book a demo</h2>
+        <p class="modal-sub">See Nimbus running on your own data in 20 minutes.</p>
+        <form class="modal-form">
+          <label class="field">
+            <span class="field-label">Work email</span>
+            <input type="email" placeholder="you@company.com" />
+          </label>
+          <label class="field">
+            <span class="field-label">Company</span>
+            <input type="text" placeholder="Acme Inc." />
+          </label>
+          <button type="button" class="btn btn-primary modal-submit">Request demo</button>
+        </form>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
